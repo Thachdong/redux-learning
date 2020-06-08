@@ -1,0 +1,12 @@
+export const ADD_TODO = "ADD_TODO";
+export const TOGGLE_TODO = "TOGGLE_TODO";
+export const DELETE_TODO = "DELETE_TODO";
+export const SET_FILTER = "SET_FILTER";
+
+export const FETCH_DATA_REQUEST = "FETCH_DATA_REQUEST";
+export const FETCH_DATA_SUCCESS = "FETCH_DATA_SUCCESS";
+export const FETCH_DATA_FAIL = "FETCH_DATA_FAIL";
+
+export const FETCH_POST_REQUEST = "FETCH_POST_REQUEST";
+export const FETCH_POST_SUCCESS = "FETCH_POST_SUCCESS";
+export const FETCH_POST_FAIL = "FETCH_POST_FAIL";

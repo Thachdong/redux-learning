@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 30rem;
+  margin: 1rem auto;
+}
+
+.todo-form {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.todo-form textarea {
+  width: 100%;
+  height: 5rem;
+  padding: 0.5rem 0.25rem;
+  outline: none;
+}
+
+.todo-form button {
+  border: none;
+  outline: none;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.todo-dashboard {
+  padding-top: 1rem;
+}
+
+.todo-dashboard table {
+  margin: 1rem 0;
+}
+
+.todo-dashboard table,
+thead,
+tbody {
+  width: 100%;
+  text-align: left;
+}
